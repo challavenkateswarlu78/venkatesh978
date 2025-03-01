@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Nation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: beige;
+            color: rgb(11, 10, 10);
+            margin-left: 80px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #0e0d0d;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #dacc96;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .box {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, background-color 0.3s;
+            width: 200px;
+            height: 220px;
+            text-align: center;
+            padding: 10px;
+        }
+        .box:hover {
+            transform: scale(1.05);
+            background-color:rgb(215, 207, 207);
+        }
+        .box img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        .box h3 {
+            padding: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+        .caption {
+            font-size: 14px;
+            color: rgb(18, 2, 2);
+            padding-bottom: 5px;
+        }
+        .navbar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+    .nav-item {
+        background-color: #0e0d0c;
+        padding: 8px 15px;
+        border-radius: 25px; /* Oval shape */
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .nav-item:hover {
+        background-color: wheat ;
+    }
+
+      
+    </style>
+</head>
+<body>
+    
+
+   
+    <div class="container">
+        <h1>Tasty Nation</h1>
+        <a href="home.html" class="nav-item">Home</a>
+        <a href="menu1.html" class="nav-item">Menu</a>
+        <a href="contact.html" class="nav-item">Contact Us</a>
+        
+        <div class="container">
+
+        </div>
+        
+        <div class="grid">
+            <div class="box">
+                <img src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg" alt="Food">
+                <h3>Veg Biryani</h3>
+                <p class="caption"><i>Aromatic and flavorful vegetarian delight!</i></p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWbdhbCEdDfXjXGHtJpW6newjQwMH04yJKsoHVgoshNmGA-Gz3yLsvN_kbhyK5mIkVoMk&usqp=CAU" alt="Food">
+                <h3>Paneer Butter Masala</h3>
+                <p class="caption"><i>Rich, creamy, and bursting with flavors!</i></p>
+            </div>
+            <div class="box">
+                <img src="https://staticimg.amarujala.com/assets/images/2021/11/26/punjabi-dal-tadka-recipe_1637897436.jpeg" alt="Food">
+                <h3>Dal Tadka</h3>
+                <p class="caption"><i>Comforting lentils tempered with spices!</i></p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCN6ik2MKueDG0MFMWYwLkJ1ihgteqajUUQ&s" alt="Food">
+                <h3>Gobi Manchurian</h3>
+                <p class="caption"><i>Spicy, crispy, and oh-so-delicious!</i></p>
+            </div>
+        </div>
+        
+       
+        <div class="grid">
+            <div class="box">
+                <img src="https://apollosugar.com/wp-content/uploads/2018/12/Masala-Dosa.jpg" alt="Food">
+                <h3>Dosa </h3>
+                <p class="caption"><i>Crispy South Indian dosa with flavorful chutneys.</i></p>
+            </div>
+
+            <div class="box">
+                <img src="https://www.thespruceeats.com/thmb/sRv7c51X14pJ6AbZZ1WfsLvOHkc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/idli-56a510b63df78cf772862c34.jpg" alt="Food">
+                <h3>Idly </h3>
+                <p class="caption"><i> and fluffy idlis served with chutney and sambar.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://thumbs.dreamstime.com/b/ven-pongal-famous-south-indian-breakfast-served-banana-leaf-270630914.jpg" alt="Food">
+                <h3>Pongal </h3>
+                <p class="caption"><i>A warm and comforting South Indian delicacy.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://www.seema.com/wp-content/uploads/2022/08/Upma.jpg" alt="Food">
+                <h3>Upma </h3>
+                <p class="caption"><i>A nutritious and savory semolina dish.</i></p>
+            </div>
+
+        </div>
+        
+       
+        <div class="grid">
+            
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/puri-bhaji-indian-semi-dry-potato-spicy-recipe-also-known-as-batata-aloo-ki-sabji-served-with-fried-poori-selective-focus_466689-12814.jpg" alt="Food">
+                <h3>Puri </h3>
+                <p class="caption"><i>Fluffy and golden puris served with curry.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/15/21/70/JTaQ6IgeQwG0MY6cjO2g_1415850927098.jpg" alt="Food">
+                <h3>Roti Delight</h3>
+                <p class="caption"><i>Soft and fresh rotis made with whole wheat.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://jamboshop.co.ke/blog/wp-content/uploads/2022/07/portion-african-chapati-bean-stew-garlic-lemons.jpg" alt="Food">
+                <h3>Chapati Special</h3>
+                <p class="caption"><i>Healthy and soft chapatis for a light dinner.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.k8UwA5zexv0Mp_CiqAecEwHaLH?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Curd Rice</h3>
+                <p class="caption"><i>Cool and refreshing curd rice with a hint of seasoning.</i></p>
+            </div>
+
+        </div>
+     
+        <div class="grid">
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/frozen-delight-vibrant-colorful-ice-cream-float-journey_983420-72968.jpg?w=2000" alt="Food">
+                <h3>Frozen Delight</h3>
+                <p class="caption"><i>Refreshing ice creams in various flavors.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.MsAQMuX98uNkrj0K0IXHFQHaEo?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Coffee </h3>
+                <p class="caption"><i>Rich and aromatic coffee for a fresh start.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.aHVxF8kAJRkIzt4sVMcpRAHaHa?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Gulab Jamun </h3>
+                <p class="caption"><i>and juicy dumplings soaked in sugar syrup.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.nOliGoc1Z9lH6QNh4gWkUAHaHa?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Jalebi Crunch</h3>
+                <p class="caption"><i>Crispy and sugary swirls of sweetness.</i></p>
+            </div>
+
+
+        </div><br>
+        <p><i><b>select</b> you dish, <b>enjoy</b> it</i></p>
+    </div>
+    
+   
+</body>
+</html>

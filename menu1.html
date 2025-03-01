@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Nation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: beige;
+            color: rgb(11, 10, 10);
+            margin-left: 80px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #0e0d0d;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #dacc96;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .box {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, background-color 0.3s;
+            width: 200px;
+            height: 220px;
+            text-align: center;
+            padding: 10px;
+        }
+        .box:hover {
+            transform: scale(1.05);
+            background-color:rgb(215, 207, 207);
+        }
+        .box img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+        .box h3 {
+            padding: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+        .caption {
+            font-size: 14px;
+            color: rgb(18, 2, 2);
+            padding-bottom: 5px;
+        }
+        .navbar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+    .nav-item {
+        background-color: #0e0d0c;
+        padding: 8px 15px;
+        border-radius: 25px; /* Oval shape */
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .nav-item:hover {
+        background-color: wheat ;
+    }
+
+      
+    </style>
+</head>
+<body>
+    
+
+   
+    <div class="container">
+        <h1>Tasty Nation</h1>
+        <a href="home.html" class="nav-item">Home</a>
+        <a href="menu2.html" class="nav-item">Menu</a>
+        <a href="contact.html" class="nav-item">Contact Us</a>
+        
+        <div class="container">
+
+        </div>
+        
+        <div class="grid">
+            <div class="box">
+                <img src="https://i.pinimg.com/originals/14/55/1a/14551a1d3c7f79141e36788f09b57715.jpg" alt="Food">
+                <h3>Chicken Biryani</h3>
+                <p class="caption"><i>Chicken lovers, unite! A bite of heaven in every piece.</i></p>
+            </div>
+            <div class="box">
+                <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Chicken-Curry-Thumbnail.jpg" alt="Food">
+                <h3>Chicken Curry</h3>
+                <p class="caption"><i>Spicy, creamy, and packed with flavor Chicken Curry that warms the soul</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.M9HjypHgoTStplBXxLyZxQHaHa?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Chicken Lollipop</h3>
+                <p class="caption"><i>Crispy on the outside, juicy on the inside Chicken Lollipop, the ultimate snack</i></p>
+            </div>
+            <div class="box">
+                <img src="https://4.bp.blogspot.com/-KnklSUOc_5A/WO728_IxH5I/AAAAAAAAHgw/PMx5R-yV8Y0tEjmIK6qRZvRRDj-HhZTUwCLcB/s1600/0000000000000000000000000%25281%2529.jpg" alt="Food">
+                <h3>Chicken Fry </h3>
+                <p class="caption"><i>Golden, crispy, and packed with flavor Chicken Fry that hits the spot!</i></p>
+            </div>
+        </div>
+        
+       
+        <div class="grid">
+            <div class="box">
+                <img src="https://paattiskitchen.com/wp-content/uploads/2023/03/kmc_20230323_230743.jpg" alt="Food">
+                <h3>Mutton Biryani</h3>
+                <p class="caption"><i>Royal flavors, tender mutton, and aromatic rice Mutton Biryani, feast for the senses</i></p>
+            </div>
+            <div class="box">
+                <img src="https://recipes.timesofindia.com/thumb/63201465.cms?imgsize=78891&width=800&height=800" alt="Food">
+                <h3>Mutton Curry</h3>
+                <p class="caption"><i>Rich, spicy, and full of flavor Mutton Curry that melts in your mouth</i></p>
+            </div>
+            <div class="box">
+                <img src="https://lh6.googleusercontent.com/FaPQvQFngqrmMQ6yPBlAp6mSQ3bP2T7ZFkivNRN1_4YHqhyz3IsvZ1jQtBNE05qpl3kurlcLP26ziBa8LWaiYvCvcoo5Waqmt_pIfWCWIwHFsFi-OlxD7l88E6qIvcOYLg6mcNWP" alt="Food">
+                <h3>Mutton Chops</h3>
+                <p class="caption"><i> Juicy, tender, and packed with spice Mutton Chops that make every bite unforgettable</i></p>
+            </div>
+            <div class="box">
+                <img src="https://1.bp.blogspot.com/-YZ7EE8yNIOE/UEfXkVv-0mI/AAAAAAAAAxw/vW9khsTdTOI/s1600/IMG_2679.JPG" alt="Food">
+                <h3>Mutton Korma</h3>
+                <p class="caption"><i>Slow-cooked, creamy, and rich Mutton Korma, a royal treat for your taste buds</i></p>
+            </div>
+        </div>
+        
+       
+        <div class="grid">
+            <div class="box">
+                <img src="https://i.pinimg.com/originals/bd/d2/e7/bdd2e75a503d18ca8a1d4b21b650909c.jpg" alt="Food">
+                <h3>Prawn Biryani</h3>
+                <p class="caption"><i>Aromatic rice, succulent prawns, and a burst of spices—Prawn Biryani, seafood perfection</i></p>
+            </div>
+            <div class="box">
+                <img src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/gambas-al-ajillo-garlic-shrimp-bb5964.jpg" alt="Food">
+                <h3>Prawn Curry</h3>
+                <p class="caption"><i>Rich, spicy, and packed with coastal flavors—Prawn Curry that’s pure indulgenc</i></p>
+            </div>
+            <div class="box">
+                <img src="https://www.tamarindnthyme.com/wp-content/uploads/2020/06/Chilli-Garlic-Butter-Prawns4-1.jpg" alt="Food">
+                <h3>Garlic Butter Prawns</h3>
+                <p class="caption"><i>Buttery, garlicky, and utterly delicious—Garlic Butter Prawns that melt in your mouth</i></p>
+            </div>
+            <div class="box">
+                <img src="https://img-global.cpcdn.com/recipes/ef73a3779f8a83c0/1200x630cq70/photo.jpg" alt="Food">
+                <h3>Prawn Fry</h3>
+                <p class="caption"><i>Crispy, golden, and packed with spice—Prawn Fry that’s the perfect seafood snack</i></p>
+            </div>
+        </div>
+     
+        <div class="grid">
+            <div class="box">
+                <img src="https://i.pinimg.com/originals/e7/bb/be/e7bbbe8edcf24f812d58f8bc9de7f396.jpg" alt="Food">
+                <h3>Fish Fry</h3>
+                <p class="caption"><i>Crispy, golden, and bursting with flavor—Fish Fry that’s simply irresistible!</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP._1OanCkIafqUpjgn_7Zq8gHaJ4?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Fish Curry </h3>
+                <p class="caption"><i>A spicy, tangy delight—Fish Curry that brings coastal flavors to your plate</i></p>
+            </div>
+            <div class="box">
+                <img src="https://images.aws.nestle.recipes/resized/5d80437e677ba82c7a4f6dfede5f6f24_fish_biryani_1500x700-1_944_531.jpg" alt="Food">
+                <h3>Fish Biryani </h3>
+                <p class="caption"><i>Aromatic rice, flavorful spices, and tender fish—Fish Biryani that’s pure seafood bliss</i></p>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.6HNHuZGn6DAZjZvqAjkZvwHaHa?rs=1&pid=ImgDetMain" alt="Food">
+                <h3>Grilled Fish</h3>
+                <p class="caption"><i>Smoky, juicy, and perfectly grilled—Fish that melts in your mouth</i></p>
+            </div>
+
+        </div><br>
+        <p><i><b>select</b> you dish, <b>enjoy</b> it</i></p>
+    </div>
+    
+   
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tasty Nation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: beige;
+            color: rgb(8, 8, 8);
+            text-align: center;
+            padding-bottom: 40px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .nav a {
+            background-color: #0c0b0b;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .nav a:hover {
+            background-color: #ece3c0;
+            color: black;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 38px;
+            color: #0f0e0e;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .box {
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+        }
+        .box:hover {
+            transform: scale(1.08);
+        }
+        .box h3 {
+            color: #121111;
+            margin-bottom: 8px;
+        }
+        .box p {
+            font-size: 16px;
+        }
+        .form-container {
+            margin-top: 40px;
+        }
+        form {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #0d0c0c;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            margin-top: 12px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #dad0a9;
+            color: black;
+        }
+        .map {
+            margin-top: 40px;
+        }
+        .social {
+            margin-top: 30px;
+        }
+        .social a {
+            color: rgb(14, 12, 12);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 24px;
+            transition: 0.3s;
+        }
+        .social a:hover {
+            color: #dad0a9;
+        }
+        .social h2{
+            text-emphasis-color: black;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="menu2.html">Menu</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <h1>Contact Us</h1>
+
+        <div class="info">
+            <p>Have questions? Need a reservation? Contact us below!</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="box">
+                <h3>📍 Address</h3>
+                <p>Sri Komala Vilas, Sullurpeta, Andhra Pradesh, India</p>
+            </div>
+            <div class="box">
+                <h3>📞 Phone</h3>
+                <p>+91 9885153304</p>
+            </div>
+            <div class="box">
+                <h3>📧 Email</h3>
+                <p>revathi06@gmail.com</p>
+            </div>
+            <div class="box">
+                <h3>🕒 Hours</h3>
+                <p>Mon-Sun: 10 AM - 10 PM</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2>Send Us a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+
+        <div class="social">
+            <h2>Follow Us</h2>
+            <a href="#">🔵 Facebook</a>
+            <a href="#">📸 Instagram</a>
+            <a href="#">🐦 Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
